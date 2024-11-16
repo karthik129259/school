@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.main-header {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.hero {
+  background: url('images/hero-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+}
+
+.cta-btn {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.about-section, .academics-section, .admissions-section, .events-section {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.about-cards, .academics-courses {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card, .course-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.events-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.events-list li {
+  background-color: #fff;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-footer {
+  background-color: #0056b3;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+}
